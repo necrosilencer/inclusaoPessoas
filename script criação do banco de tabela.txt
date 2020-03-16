@@ -1,0 +1,7 @@
+CREATE TABLE dados_profissionais (
+id TINYINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+nome VARCHAR(80) NOT NULL,
+dataRegistro DATE NOT NULL,
+cargo VARCHAR(30) NOT NULL, 
+dependentes TINYINT NOT NULL,
+salario FLOAT NOT NULL);
